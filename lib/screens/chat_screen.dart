@@ -5,7 +5,7 @@ import 'package:flash_chat/constants.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import'package:cloud_firestore/cloud_firestore.dart';
 final _firestore=FirebaseFirestore.instance;
-//ChatScreen Widgets
+//ChatScreen Widget
 User loggedInUser;
 class ChatScreen extends StatefulWidget {
   static const String id='chat_screen';
